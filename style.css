@@ -190,15 +190,15 @@ footer{
     }
 
     header{
-        max-width: 380px;
+        max-width: 100%;
     }
 
     main{
-        max-width: 380px;
+        max-width: 100;
     }
 
     footer{
-        max-width: 380px;
+        max-width: 100;
     }
 
     .sec-black em{
