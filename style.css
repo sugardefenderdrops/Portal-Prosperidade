@@ -175,7 +175,7 @@ footer{
     font-weight: 100;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 600px) {
 
     html{
         font-size: 10px;
