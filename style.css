@@ -1,12 +1,11 @@
 html{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 body, a, p{
 
     padding: 0rem;
     margin: 0rem;
-
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -120,7 +119,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.4rem;
+    font-size: 1.3rem;
 
     padding: 0 1.5rem 0 4rem;
 }
