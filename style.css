@@ -189,6 +189,30 @@ footer{
         font-size: 1.4rem;
     }
 
+    header{
+        max-width: 380px;
+    }
+
+    main{
+        max-width: 380px;
+    }
+
+    footer{
+        max-width: 380px;
+    }
+
+    .sec-black em{
+        font-size: 2.1rem;
+    }
+
+    .sec-blue em{
+        font-size: 2.1rem;
+    }
+
+    .sec-white{
+        font-size: 2.1rem;
+    }
+
     .container{
         display: block;
     }
@@ -215,7 +239,7 @@ footer{
 
     .nav-mobile li{
         display: block;
-        padding-top: 1.2rem;
+        padding-top: 1rem;
         color: #101736;
         font-weight: bolder;
         padding: 0.5rem;
