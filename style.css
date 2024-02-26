@@ -1,0 +1,225 @@
+body, a, p{
+
+    padding: 0rem;
+    margin: 0rem;
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.sec-white{
+    padding: 3rem;
+}
+
+.sec-white em{
+    color: #ff6816;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.6rem;
+}
+
+.sec-blue{
+    color: white;
+    background-color: #4054b2;
+    padding: 3rem;
+}
+
+.sec-blue em{
+    color: #ffcc00;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 3.6rem;
+}
+
+.sec-black{
+    color: white;
+    background-color: black;
+    padding: 1rem;
+
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-black em{
+    color: #ffcc00;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.sec-espace{
+    padding: 18rem;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+small{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+ol li{
+    font-weight: bolder;
+    text-align: center;
+    list-style-position: inside;
+}
+
+button{
+    background-color: #ff6816;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 20px;
+    padding: 1.7rem;
+    margin-top: 3rem;
+
+    cursor: pointer;
+}
+
+pre{
+    padding: 3rem;
+}
+
+header{
+    background-color: #f3d2bf;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.4rem;
+
+    padding: 0 1.5rem 0 4rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul a{
+    color: #101736;
+    font-weight: bolder;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.nav-mobile{
+    display: none;
+}
+
+.button-mobile{
+    display: none;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: first baseline;
+}
+
+.list-32{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+}
+
+.text-price-line{
+    text-decoration: line-through;
+    color: red;
+    font-weight: bolder;
+}
+
+.gratis{
+    color: green;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: #54595f;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: darkgray;
+    font-size: 0.2rem;
+    font-weight: 100;
+}
+
+@media (max-width: 730px) {
+    .container{
+        display: block;
+    }
+
+    .list-32{
+        display: block;
+    }
+
+    .sec-black{
+        display: block;
+    }
+
+    .nav-padrao li{
+        display: none;
+    }
+
+    .nav-mobile ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .nav-mobile li{
+        display: block;
+        padding-top: 1.2rem;
+        color: #101736;
+        font-weight: bolder;
+        padding: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .button-mobile{
+        display: block;    
+    }
+
+    .button-mobile > button{
+        background: transparent;
+        cursor: pointer;
+    }
+
+    .open{
+        display: block;
+    }
+
+}
